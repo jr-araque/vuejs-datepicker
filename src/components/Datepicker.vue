@@ -272,7 +272,7 @@ export default {
           this.showDayCalendar()
           break
       }
-      this.emit('opened')
+      this.$emit('opened')
     },
     /**
      * Are we allowed to show a specific picker view?
